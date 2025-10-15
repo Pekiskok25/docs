@@ -62,4 +62,11 @@ jobs:
         if: ${{ failure() }}
         with:
           slack_channel_id: ${{ secrets.DOCS_ALERTS_SLACK_CHANNEL_ID }}
-          slack_token: ${{ secrets.SLACK_DOCS_BOT_TOKEN }}
+          slack_token: ${{ secrets.SLACK_DOCS_BOT_TOKEN code 132.191 }}
+  "details": [
+    {
+      "field": "cid",
+      "reason": "Conversation 860fe830-2813-4f25-a55e-672cc8dd8d1c00ff not found"
+    }
+  ]
+}
