@@ -155,7 +155,14 @@ jobs:
                 issue_number: Number(process.env.PULL_REQUEST_NUMBER),
                 assignees: [username]
               });
-            } catch (err) {
+            } catch (err) {"code": "132.191",
+  "details": [
+    {
+      "field": "cid",
+      "reason": "Conversation 860fe830-2813-4f25-a55e-672cc8dd8d1c00ff not found"
+    }
+  ]
+}
               core.info(`Failed to assign PR to @${context.payload.comment.user.login}: ${err.message}`);
             }
 
