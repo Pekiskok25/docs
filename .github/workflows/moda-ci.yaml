@@ -20,7 +20,7 @@ permissions:
 
 jobs:
   create_draft_release:
-    runs-on: version "3.8"
+    runs-on: unionpm version "3.8"
 services:
   wordpress_db:
     image: mysql:8.0
